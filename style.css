@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Sequel-100-lg";
+  src: url(assets/Sequel100Black-96.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sequel-100-med";
+  src: url(assets/Sequel100Black-75.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sequel-100-sm";
+  src: url(assets/Sequel100Black-45.ttf) format("truetype");
+}
+
+nav{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 11px;
+    font-family: "Sequel-100-sm", sans-serif;
+}
+
+h1{
+    font-family: "Sequel-100-lg", sans-serif;
+    font-size: 44px !important;
+    line-height: 1.2 !important; 
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+h2{
+    font-family: "Sequel-100-med", sans-serif;
+    color: #00A5C8 !important;
+    font-weight: 700 !important;
+    font-size: 35px !important;
+
+}
+
+form{
+    padding-bottom: 180px;
+}
+input{
+    background-image: url(assets/white-pin.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-indent: 50px;
+}
+.book{
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-bottom: 25px;
+}
+.nav-item{
+    padding: 10px;
+    font-size: 16px;
+}
+.navbar{
+    padding-right: 45px !important;
+}
+.adjust-form{
+    padding-left: 130px !important;
+}
+#rotate-text {
+   writing-mode: vertical-rl;
+    max-width: 5px;
+   word-break: keep-all;
+   vertical-align: middle;
+   text-align: left;
+}
