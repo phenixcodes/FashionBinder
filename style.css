@@ -24,6 +24,14 @@ nav{
     font-size: 11px;
     font-family: "Sequel-100-sm", sans-serif;
 }
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.dropdown-menu{
+    font-color: white !important;
+    background-color: black !important;
+}
 
 h1{
     font-family: "Sequel-100-lg", sans-serif;
