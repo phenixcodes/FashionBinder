@@ -24,20 +24,28 @@ nav{
     font-size: 11px;
     font-family: "Sequel-100-sm", sans-serif;
 }
-.navbar-brand{
-    margin-left: 5px;
-    font-weight: 700 !important;
+.book{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 5px;
 }
+.navbar-brand{
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
 .nav-item{
-    padding: 10px;
+    padding: 15px;
     font-size: 16px;
+    text-align: center;
 }
 .navbar{
     padding-right: 45px !important;
 }
 .dropdown-menu{
-    font-color: white !important;
     background-color: black !important;
+    text-align: center !important;
 }
 h1{
     font-family: "Sequel-100-lg", sans-serif;
@@ -62,11 +70,6 @@ input{
     background-repeat: no-repeat;
     background-position: right;
     text-indent: 50px;
-}
-.book{
-    padding-top: 30px;
-    padding-left: 45px;
-    padding-bottom: 25px;
 }
 .adjust-form{
     padding-left: 130px !important;
