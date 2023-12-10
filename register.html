@@ -45,26 +45,37 @@
 
 <!--Body-->
 
-<body class="bg-black text-light" style="text-align: center;">
-    <div class="container-fluid">
+<body class="bg-black text-light">
+    <div class="container spacing custom-font">
         <div class="row justify-content-md-center">
-            <div class="col-md-10">
-                <h1>Bringing more inclusivity, resources, opportunities and better education to fashion majors at HBCUs
-                    and private schools.</h1>
-                <h3>Sign Up For Demo</h3>
+            <div class="col-sm-5">
+                <p> -Sign Up</p>
+                <h2>Your <br> Information</h2>
             </div>
-        </div>
-        <div class="row justify-content-md-center">
-            <div class="col-md-6 col-form-label align-self-center">
-                <form>
-                    <div class="form-group">
-                        <input type="email" class="form-control form-control-lg bg-transparent text-light"
-                            id="email-form">
+            <div class="col-sm-5">
+                <div class="col-sm">
+                    <label for="form1" class="form-label">Username</label>
+                    <input type="text" id="username" class="form-control bg-transparent"
+                        aria-describedby="usernameInline" placeholder="Username">
+                </div>
+                <div class="col-sm">
+                    <label for="form2" class="form-label">Password</label>
+                    <input type="password" id="inputPassword6" class="form-control bg-transparent"
+                        aria-describedby="passwordHelpInline" placeholder="Password">
+                </div>
+                <div class="col-sm">
+                    <label for="form3" class="form-label">Email Address</label>
+                    <input type="email" class="form-control form-control-sm bg-transparent"
+                        id="exampleFormControlInput1" placeholder="Email">
+                </div>
+                <form action="/success.html">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-lg justify-content-end" href="/success.html">NEXT</button>
                     </div>
                 </form>
             </div>
+             
         </div>
-    </div>
 </body>
 
 </html>
