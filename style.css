@@ -34,13 +34,11 @@ nav{
 }
 .navbar-brand{
     font-weight: 700 !important;
-    text-align: center !important;
 }
 .nav-item{
     padding: 15px;
     margin-top: 5px;;
     font-size: 16px;
-    text-align: center;
 }
 .navbar{
     padding-right: 45px !important;
@@ -57,7 +55,7 @@ h2{
     font-family: "Sequel-100-lg", sans-serif;
     color: #00A5C8 !important;
     font-weight: 700 !important;
-    font-size: 40px !important;
+    font-size: 35px !important;
 
 }
 h3{
@@ -69,7 +67,7 @@ h3{
 }
 .custom-font{
     font-family: "Sequel-100-smed", sans-serif;
-    font-size: 1px !important;   
+    font-size: 13px !important;   
     font-weight: 300;
 }
 label{
